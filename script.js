@@ -24,7 +24,6 @@ Available commands:
 – AAS in Networking (in progress), CompTIA Security+ (prep)
   `),
   'ki -contact': () => print(`
-Email: kristina.antic@example.com
 LinkedIn: https://linkedin.com/in/ki-antic
 GitHub:   https://github.com/spacetimeki
 Instagram: https://instagram.com/spacetimeki
@@ -50,4 +49,4 @@ cmdInput.addEventListener('keydown', e => {
 });
 
 // initial greeting
-print("Welcome! Type ki -help for a list of commands.");
+print("welcome to spacetimeki! type ki -help for a list of commands.");
