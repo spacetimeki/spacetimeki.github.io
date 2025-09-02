@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Terminal vibe */
+body {
+  background-color: #000;
+  color: #00ff7f;
+}
