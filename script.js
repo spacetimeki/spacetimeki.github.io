@@ -122,7 +122,7 @@ contributing to open-source projects.
       exec: () => {
         print("<span style='color: #1793d1;'>→ Opening projects page...</span>");
         setTimeout(() => {
-          window.open("spacetimeki-blog/index.html", "_blank");
+          window.open("spacetimeki-blog/dist/index.html", "_blank");
         }, 500);
       }
     },
