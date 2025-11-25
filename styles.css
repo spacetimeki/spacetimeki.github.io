@@ -214,3 +214,40 @@ body {
         height: 28px;
     }
 }
+
+/* === CAT PETS === */
+#cats-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.cat-pet {
+    position: absolute;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: transform 0.3s ease;
+}
+
+.cat-pet:hover {
+    filter: brightness(1.2);
+}
+
+.cat-pet:active {
+    transform: scale(0.95);
+}
+
+/* Mobile adjustments for cats */
+@media (max-width: 600px) {
+    .cat-pet {
+        transform: scale(0.8);
+    }
+}

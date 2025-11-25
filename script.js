@@ -299,6 +299,9 @@ in the meantime, check out:
 <span style="color: #1793d1; font-weight: bold;">┌─ welcome to spacetimeki@archlinux</span>
 <span style="color: #1793d1; font-weight: bold;">│</span>
 <span style="color: #1793d1; font-weight: bold;">│</span>  all things cybersecurity
+<span style="color: #1793d1; font-weight: bold;">│</span>
+<span style="color: #1793d1; font-weight: bold;">│</span>  <span style="color: #af87ff;">🐱 meet the cat! inspired by richie - a very special and loved cat</span>
+<span style="color: #1793d1; font-weight: bold;">│</span>     <span style="color: #666;">(you can grab and move him around!)</span>
 <span style="color: #1793d1; font-weight: bold;">└─</span>
 
 type <span style="color: #5fd700;">help</span> to see available commands or <span style="color: #5fd700;">about</span> to learn more about me.
