@@ -132,7 +132,6 @@ contributing to open-source projects.
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat ~/.config/contact.conf</span>
 
-<span style="color: #5fd700;">Email:</span>      <a href="mailto:ki.antic@example.com" style="color: #1793d1;">ki.antic@example.com</a>
 <span style="color: #5fd700;">LinkedIn:</span>   <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #1793d1;">linkedin.com/in/ki-antic</a>
 <span style="color: #5fd700;">GitHub:</span>     <a href="https://github.com/spacetimeki" target="_blank" style="color: #1793d1;">github.com/spacetimeki</a>
 <span style="color: #5fd700;">Location:</span>   Available for Remote Work
@@ -147,7 +146,6 @@ contributing to open-source projects.
 
 <span style="color: #1793d1;">github</span>     → <a href="https://github.com/spacetimeki" target="_blank" style="color: #c5c8c6;">github.com/spacetimeki</a>
 <span style="color: #1793d1;">linkedin</span>   → <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #c5c8c6;">linkedin.com/in/ki-antic</a>
-<span style="color: #1793d1;">instagram</span>  → <a href="https://instagram.com/spacetimeki" target="_blank" style="color: #c5c8c6;">instagram.com/spacetimeki</a>
         `);
       }
     },

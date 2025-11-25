@@ -128,14 +128,6 @@ export default function Terminal() {
             >
               → GitHub
             </a>
-            <a
-              href="https://instagram.com/spacetimeki"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-terminal-text hover:text-terminal-blue transition-colors underline"
-            >
-              → Instagram
-            </a>
           </div>
         </div>
       </motion.div>
