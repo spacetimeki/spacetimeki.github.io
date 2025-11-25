@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat ~/about.txt</span>
 
-Hey! I'm <span style="color: #5fd700; font-weight: bold;">spacetimeki</span> (Ki Antic)
+Hey! I'm <span style="color: #5fd700; font-weight: bold;">spacetimeki</span>
 
 I'm a SOC Analyst with a passion for cybersecurity and building things.
 I enjoy creating real-world hacking labs, security tools, and breaking 
