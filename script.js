@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
   banner      - display ASCII art banner
 
 <span style="color: #5fd700;">│ Network & Security:</span>
-  ipconfig    - show your IP and location info
+  ip          - show your IP and location info
   echo [text] - print text to terminal
 
 <span style="color: #666;">└─ Tip: Use ↑/↓ arrow keys for command history</span>
@@ -152,7 +152,7 @@ contributing to open-source projects.
       }
     },
 
-    "ipconfig": {
+    "ip": {
       exec: async () => {
         print("<span style='color: #1793d1;'>Fetching network information...</span>");
         try {
