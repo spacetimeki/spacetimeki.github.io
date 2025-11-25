@@ -57,7 +57,7 @@ export default function Terminal() {
             </a>
           </div>
           <p className="text-terminal-blue mb-2"># hi, i'm ki 👋</p>
-          <p className="text-terminal-text">All things Cybersecurity</p>
+          <p className="text-terminal-text">all things cybersecurity</p>
         </div>
 
         {/* Repos Section */}
@@ -84,13 +84,13 @@ export default function Terminal() {
 
           {error && (
             <div className="text-red-400 border border-red-400 rounded p-4">
-              <p className="font-bold">Error:</p>
+              <p className="font-bold">error:</p>
               <p>{error}</p>
               <button
                 onClick={fetchGitHubRepos}
                 className="mt-2 underline hover:text-red-300"
               >
-                Try again
+                try again
               </button>
             </div>
           )}
@@ -104,7 +104,7 @@ export default function Terminal() {
           )}
 
           {!loading && !error && repos.length === 0 && (
-            <p className="text-terminal-text">No repositories found.</p>
+            <p className="text-terminal-text">no repositories found.</p>
           )}
         </div>
 

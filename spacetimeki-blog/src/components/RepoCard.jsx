@@ -81,7 +81,7 @@ export default function RepoCard({ repo }) {
             rel="noopener noreferrer"
             className="text-xs text-terminal-blue hover:text-white transition-colors underline"
           >
-            🔗 {repo.homepage}
+            🔗 {repo.homepage.toLowerCase()}
           </a>
         </div>
       )}

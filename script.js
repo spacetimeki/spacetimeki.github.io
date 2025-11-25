@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
     "help": {
       exec: () => {
         print(`
-<span style="color: #1793d1; font-weight: bold;">┌─ Available Commands</span>
+<span style="color: #1793d1; font-weight: bold;">┌─ available commands</span>
 
-<span style="color: #5fd700;">│ Portfolio:</span>
+<span style="color: #5fd700;">│ portfolio:</span>
   about       - learn about me
   skills      - view my technical skills
   experience  - see my work experience
@@ -33,18 +33,18 @@ document.addEventListener('DOMContentLoaded', function() {
   social      - view my social media links
   resume      - download my resume
 
-<span style="color: #5fd700;">│ System:</span>
+<span style="color: #5fd700;">│ system:</span>
   whoami      - display current user
   date        - show current date/time
   ls          - list available sections
   clear       - clear the terminal
-  banner      - display ASCII art banner
+  banner      - display ascii art banner
 
-<span style="color: #5fd700;">│ Network & Security:</span>
-  ip          - show your IP and location info
+<span style="color: #5fd700;">│ network & security:</span>
+  ip          - show your ip and location info
   echo [text] - print text to terminal
 
-<span style="color: #666;">└─ Tip: Use ↑/↓ arrow keys for command history</span>
+<span style="color: #666;">└─ tip: use ↑/↓ arrow keys for command history</span>
         `);
       }
     },
@@ -54,14 +54,14 @@ document.addEventListener('DOMContentLoaded', function() {
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat ~/about.txt</span>
 
-Hey! I'm <span style="color: #5fd700; font-weight: bold;">spacetimeki</span>
+hey! i'm <span style="color: #5fd700; font-weight: bold;">spacetimeki</span>
 
-I'm a SOC Analyst with a passion for cybersecurity and building things.
-I enjoy creating real-world hacking labs, security tools, and breaking 
+i'm a soc analyst with a passion for cybersecurity and building things.
+i enjoy creating real-world hacking labs, security tools, and breaking 
 things to understand how they work (ethically, of course).
 
-When I'm not analyzing security events or researching vulnerabilities,
-I'm probably tinkering with new tech, automating workflows, or 
+when i'm not analyzing security events or researching vulnerabilities,
+i'm probably tinkering with new tech, automating workflows, or 
 contributing to open-source projects.
         `);
       }
@@ -72,25 +72,25 @@ contributing to open-source projects.
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat ~/skills.txt</span>
 
-<span style="color: #5fd700;">Security Tools</span>
-  • SOC Operations & Threat Analysis
-  • Incident Response & Investigation
-  • SIEM (Splunk, QRadar, ELK)
-  • Vulnerability Assessment
-  • Network Security & Monitoring
+<span style="color: #5fd700;">security tools</span>
+  • soc operations & threat analysis
+  • incident response & investigation
+  • siem (splunk, qradar, elk)
+  • vulnerability assessment
+  • network security & monitoring
 
-<span style="color: #5fd700;">Programming</span>
-  • Python (automation, scripting)
-  • JavaScript (React, Node.js)
-  • Bash/Shell Scripting
-  • HTML/CSS
+<span style="color: #5fd700;">programming</span>
+  • python (automation, scripting)
+  • javascript (react, node.js)
+  • bash/shell scripting
+  • html/css
 
-<span style="color: #5fd700;">Tools</span>
-  • Wireshark, tcpdump
-  • Metasploit, Burp Suite
-  • Nmap, Nessus
-  • Git, Docker
-  • Linux System Administration
+<span style="color: #5fd700;">tools</span>
+  • wireshark, tcpdump
+  • metasploit, burp suite
+  • nmap, nessus
+  • git, docker
+  • linux system administration
         `);
       }
     },
@@ -100,14 +100,14 @@ contributing to open-source projects.
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat /var/log/experience.log</span>
 
-Check my LinkedIn: <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #1793d1;">linkedin.com/in/ki-antic</a>
+check my linkedin: <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #1793d1;">linkedin.com/in/ki-antic</a>
         `);
       }
     },
 
     "projects": {
       exec: () => {
-        print("<span style='color: #1793d1;'>→ Opening projects page...</span>");
+        print("<span style='color: #1793d1;'>→ opening projects page...</span>");
         setTimeout(() => {
           window.open("spacetimeki-blog/index.html", "_blank");
         }, 500);
@@ -119,9 +119,9 @@ Check my LinkedIn: <a href="https://linkedin.com/in/ki-antic" target="_blank" st
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat ~/.config/contact.conf</span>
 
-<span style="color: #5fd700;">LinkedIn:</span>   <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #1793d1;">linkedin.com/in/ki-antic</a>
-<span style="color: #5fd700;">GitHub:</span>     <a href="https://github.com/spacetimeki" target="_blank" style="color: #1793d1;">github.com/spacetimeki</a>
-<span style="color: #5fd700;">Location:</span>   Available for Remote Work
+<span style="color: #5fd700;">linkedin:</span>   <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #1793d1;">linkedin.com/in/ki-antic</a>
+<span style="color: #5fd700;">github:</span>     <a href="https://github.com/spacetimeki" target="_blank" style="color: #1793d1;">github.com/spacetimeki</a>
+<span style="color: #5fd700;">location:</span>   available for remote work
         `);
       }
     },
@@ -139,7 +139,7 @@ Check my LinkedIn: <a href="https://linkedin.com/in/ki-antic" target="_blank" st
 
     "ip": {
       exec: async () => {
-        print("<span style='color: #1793d1;'>Fetching network information...</span>");
+        print("<span style='color: #1793d1;'>fetching network information...</span>");
         try {
           const response = await fetch('https://api.ipify.org?format=json');
           const data = await response.json();
@@ -147,22 +147,22 @@ Check my LinkedIn: <a href="https://linkedin.com/in/ki-antic" target="_blank" st
           const geoData = await geoResponse.json();
           
           print(`
-<span style='color: #5fd700;'>Network Configuration:</span>
+<span style='color: #5fd700;'>network configuration:</span>
 
-IPv4 Address: ${data.ip}
-Location: ${geoData.city}, ${geoData.region}, ${geoData.country_name}
-ISP: ${geoData.org}
-Timezone: ${geoData.timezone}
+ipv4 address: ${data.ip}
+location: ${geoData.city}, ${geoData.region}, ${geoData.country_name}
+isp: ${geoData.org}
+timezone: ${geoData.timezone}
 
-<span style='color: #666;'>👀 I know where you are... (just kidding, this is public info!)</span>
+<span style='color: #666;'>👀 i know where you are... (just kidding, this is public info!)</span>
           `);
         } catch (error) {
           print(`
-<span style='color: #5fd700;'>Network Configuration:</span>
+<span style='color: #5fd700;'>network configuration:</span>
 
-IPv4 Address: Unable to fetch
-Location: Unknown
-Status: <span style='color: #ffaa00;'>Using VPN? Smart! 🛡️</span>
+ipv4 address: unable to fetch
+location: unknown
+status: <span style='color: #ffaa00;'>using vpn? smart! 🛡️</span>
           `);
         }
       }
@@ -211,11 +211,11 @@ Status: <span style='color: #ffaa00;'>Using VPN? Smart! 🛡️</span>
       exec: () => {
         print(`
 <span style='color: #1793d1; font-size: 20px; font-weight: bold;'>
-        S P A C E T I M E K I
+        s p a c e t i m e k i
 </span>
-<span style='color: #5fd700; font-weight: bold;'>All things Cybersecurity</span>
+<span style='color: #5fd700; font-weight: bold;'>all things cybersecurity</span>
 
-<span style='color: #af87ff;'>Type 'help' to see available commands</span>
+<span style='color: #af87ff;'>type 'help' to see available commands</span>
         `);
       }
     },
@@ -223,14 +223,14 @@ Status: <span style='color: #ffaa00;'>Using VPN? Smart! 🛡️</span>
     "resume": {
       exec: () => {
         print(`
-<span style='color: #1793d1;'>📄 Resume</span>
+<span style='color: #1793d1;'>📄 resume</span>
 
-<span style='color: #ffaa00;'>Download link coming soon!</span>
+<span style='color: #ffaa00;'>download link coming soon!</span>
 
-In the meantime, check out:
-  • <span style='color: #5fd700;'>experience</span> - View my work history
-  • <span style='color: #5fd700;'>skills</span> - See my technical skills
-  • <span style='color: #5fd700;'>projects</span> - Browse my GitHub projects
+in the meantime, check out:
+  • <span style='color: #5fd700;'>experience</span> - view my work history
+  • <span style='color: #5fd700;'>skills</span> - see my technical skills
+  • <span style='color: #5fd700;'>projects</span> - browse my github projects
         `);
       }
     }
@@ -257,7 +257,7 @@ In the meantime, check out:
         commands[cmd].exec(args);
       } else if (cmd) {
         print(`<span style="color: #cc0000;">bash: ${cmd}: command not found</span>`);
-        print(`<span style="color: #1793d1;">Type 'help' to see available commands</span>`);
+        print(`<span style="color: #1793d1;">type 'help' to see available commands</span>`);
       }
       
       cmdInput.value = "";
@@ -296,12 +296,12 @@ In the meantime, check out:
 
   // Initialize terminal with welcome message and full command list
   const welcomeMessage = `
-<span style="color: #1793d1; font-weight: bold;">┌─ Welcome to spacetimeki@archlinux</span>
+<span style="color: #1793d1; font-weight: bold;">┌─ welcome to spacetimeki@archlinux</span>
 <span style="color: #1793d1; font-weight: bold;">│</span>
-<span style="color: #1793d1; font-weight: bold;">│</span>  All things Cybersecurity
+<span style="color: #1793d1; font-weight: bold;">│</span>  all things cybersecurity
 <span style="color: #1793d1; font-weight: bold;">└─</span>
 
-Type <span style="color: #5fd700;">help</span> to see available commands or <span style="color: #5fd700;">about</span> to learn more about me.
+type <span style="color: #5fd700;">help</span> to see available commands or <span style="color: #5fd700;">about</span> to learn more about me.
 
 <span style="color: #666;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
   `;
