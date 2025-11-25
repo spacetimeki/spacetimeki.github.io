@@ -45,7 +45,7 @@ jobs:
       - name: Copy files to deploy directory
         run: |
           mkdir -p _site/spacetimeki-blog
-          cp -r index.html script.js styles.css favicon.svg assets _site/ || true
+          cp -r index.html script.js cats.js styles.css favicon.svg assets _site/ || true
           cp -r spacetimeki-blog/dist/* _site/spacetimeki-blog/ || true
           cp .nojekyll _site/ || true
       - name: Upload artifact
