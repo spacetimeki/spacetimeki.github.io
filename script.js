@@ -229,7 +229,6 @@ Status: <span style='color: #ffaa00;'>Using VPN? Smart! 🛡️</span>
         S P A C E T I M E K I
 </span>
 <span style='color: #5fd700; font-weight: bold;'>All things Cybersecurity</span>
-<span style='color: #666;'>Building real-world hacking labs without hurting anyone :)</span>
 
 <span style='color: #af87ff;'>Type 'help' to see available commands</span>
         `);
@@ -315,7 +314,6 @@ In the meantime, check out:
 <span style="color: #1793d1; font-weight: bold;">┌─ Welcome to spacetimeki@archlinux</span>
 <span style="color: #1793d1; font-weight: bold;">│</span>
 <span style="color: #1793d1; font-weight: bold;">│</span>  All things Cybersecurity
-<span style="color: #1793d1; font-weight: bold;">│</span>  Building real-world hacking labs without hurting anyone :)
 <span style="color: #1793d1; font-weight: bold;">└─</span>
 
 Type <span style="color: #5fd700;">help</span> to see available commands or <span style="color: #5fd700;">about</span> to learn more about me.

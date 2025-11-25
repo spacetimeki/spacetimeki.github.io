@@ -57,7 +57,7 @@ export default function Terminal() {
             </a>
           </div>
           <p className="text-terminal-blue mb-2"># hi, i'm ki 👋</p>
-          <p className="text-terminal-text">All things Cybersecurity | Building real-world hacking labs & security tools</p>
+          <p className="text-terminal-text">All things Cybersecurity</p>
         </div>
 
         {/* Repos Section */}
