@@ -1,0 +1,216 @@
+/* === TERMINAL THEME === */
+:root {
+    --bg-color: #0c0c0c;
+    --accent-color: #1793d1;
+    --border-color: #1793d1;
+    --shadow-color: rgba(23, 147, 209, 0.4);
+    --text-color: #c5c8c6;
+    --bright-blue: #1793d1;
+    --arch-blue: #0088cc;
+    --green: #5fd700;
+    --purple: #af87ff;
+}
+/* ====================== */
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0c0c0c;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#terminal-container {
+    width: 90%;
+    max-width: 900px;
+    height: 80vh;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+/* Arch Linux window header */
+#terminal-container::before {
+    content: 'spacetimeki@archlinux:~';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 50px;
+    background: linear-gradient(to bottom, #2d2d2d, #1a1a1a);
+    border-bottom: 1px solid #000;
+    z-index: 10;
+    font-size: 12px;
+    color: #888;
+    pointer-events: none;
+}
+
+#terminal-container::after {
+    content: '● ● ●';
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 10px;
+    color: #666;
+    letter-spacing: 4px;
+    z-index: 11;
+    pointer-events: none;
+}
+
+#terminal {
+    flex: 1;
+    padding: 40px 16px 16px 16px;
+    overflow-y: auto;
+    line-height: 1.6;
+    font-size: 14px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    color: var(--text-color);
+    background: #1a1a1a;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #2a2a2a;
+    padding: 12px 16px;
+    background-color: #1a1a1a;
+}
+
+.prompt {
+    margin-right: 8px;
+    color: var(--bright-blue);
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.prompt .user {
+    color: #5fd700;
+    font-weight: bold;
+}
+
+.prompt .at {
+    color: var(--text-color);
+}
+
+.prompt .host {
+    color: var(--bright-blue);
+    font-weight: bold;
+}
+
+.prompt .path {
+    color: #af87ff;
+}
+
+.prompt .symbol {
+    color: #5fd700;
+    font-weight: bold;
+}
+
+#cmd {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    font: inherit;
+    font-size: 14px;
+    padding: 4px 8px;
+    min-height: 24px;
+    caret-color: var(--text-color);
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+#cmd:focus {
+    outline: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1793d1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0088cc;
+}
+
+/* === MOBILE RESPONSIVENESS === */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #terminal-container {
+        height: 90vh;
+        width: 95%;
+        font-size: 13px;
+        max-width: none;
+    }
+
+    #terminal {
+        font-size: 12px;
+        padding: 36px 12px 12px 12px;
+    }
+
+    #input-line {
+        flex-direction: column;
+        padding: 8px;
+        gap: 6px;
+        align-items: flex-start;
+    }
+
+    .prompt {
+        margin-bottom: 0;
+        margin-right: 0;
+        display: block;
+        width: 100%;
+        font-size: 11px;
+    }
+
+    #cmd {
+        font-size: 13px;
+        padding: 6px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    #terminal-container {
+        width: 98%;
+        height: 92vh;
+        border-radius: 4px;
+    }
+    
+    #terminal {
+        font-size: 11px;
+        padding: 32px 8px 8px 8px;
+    }
+
+    #terminal-container::before {
+        height: 28px;
+    }
+}
