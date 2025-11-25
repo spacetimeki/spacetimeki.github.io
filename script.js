@@ -228,7 +228,7 @@ Status: <span style='color: #ffaa00;'>Using VPN? Smart! 🛡️</span>
 <span style='color: #1793d1; font-size: 20px; font-weight: bold;'>
         S P A C E T I M E K I
 </span>
-<span style='color: #5fd700; font-weight: bold;'>SOC Analyst & Security Enthusiast</span>
+<span style='color: #5fd700; font-weight: bold;'>All things Cybersecurity</span>
 <span style='color: #666;'>Building real-world hacking labs without hurting anyone :)</span>
 
 <span style='color: #af87ff;'>Type 'help' to see available commands</span>
@@ -314,7 +314,7 @@ In the meantime, check out:
   const welcomeMessage = `
 <span style="color: #1793d1; font-weight: bold;">┌─ Welcome to spacetimeki@archlinux</span>
 <span style="color: #1793d1; font-weight: bold;">│</span>
-<span style="color: #1793d1; font-weight: bold;">│</span>  SOC Analyst & Security Enthusiast
+<span style="color: #1793d1; font-weight: bold;">│</span>  All things Cybersecurity
 <span style="color: #1793d1; font-weight: bold;">│</span>  Building real-world hacking labs without hurting anyone :)
 <span style="color: #1793d1; font-weight: bold;">└─</span>
 

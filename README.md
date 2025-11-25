@@ -18,4 +18,4 @@ The `projects` command opens a separate blog where I document my work in more de
 
 ---
 
-Built by spacetimeki • SOC Analyst & Security Enthusiast
+Built by spacetimeki • All things Cybersecurity
