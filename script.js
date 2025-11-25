@@ -100,20 +100,7 @@ contributing to open-source projects.
         print(`
 <span style="color: #1793d1; font-weight: bold;">$ cat /var/log/experience.log</span>
 
-<span style="color: #5fd700;">[2024-Present]</span> <span style="color: #1793d1;">SOC Analyst T1</span> (with T2/T3 exposure)
-  • Monitor security events and investigate potential threats
-  • Perform log analysis and correlation using SIEM tools
-  • Respond to security incidents and escalate when needed
-
-<span style="color: #5fd700;">[2022-2024]</span> <span style="color: #1793d1;">IT Support Specialist</span>
-  • Provided technical support for hardware/software issues
-  • Managed user accounts and access permissions
-  • Performed system maintenance and troubleshooting
-
-<span style="color: #5fd700;">[2020-Present]</span> <span style="color: #1793d1;">Freelance IT & Web Developer</span>
-  • Built custom websites and web applications
-  • Provided IT consulting for small businesses
-  • Automated workflows and created productivity tools
+Check my LinkedIn: <a href="https://linkedin.com/in/ki-antic" target="_blank" style="color: #1793d1;">linkedin.com/in/ki-antic</a>
         `);
       }
     },
