@@ -256,7 +256,6 @@ MIT License - feel free to use this project for your own portfolio.
 
 - **LinkedIn:** [linkedin.com/in/ki-antic](https://linkedin.com/in/ki-antic)
 - **GitHub:** [github.com/spacetimeki](https://github.com/spacetimeki)
-- **Instagram:** [instagram.com/spacetimeki](https://instagram.com/spacetimeki)
 
 ---
 
